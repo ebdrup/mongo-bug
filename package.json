@@ -1,0 +1,21 @@
+{
+	"author":"Allan Ebdrup",
+	"name":"mongo-bug",
+	"version":"0.0.2",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/Muscula/mongo-bug"
+	},
+	"private":false,
+	"main":"./test.js",
+	"engines":{
+		"node":"0.8.x",
+		"npm":"~1.1.9"
+	},
+	"dependencies":{
+		"mongodb":""
+	},
+	"scripts":{
+		"test":"node ./test.js"
+	}
+}
